@@ -1,0 +1,24 @@
+{
+    "id": "B12EAABD",
+    "path": "~/GitHub/biomasync/R/compare_shapefiles_sync.R",
+    "project_path": "R/compare_shapefiles_sync.R",
+    "type": "r_source",
+    "hash": "275417454",
+    "contents": "",
+    "dirty": false,
+    "created": 1727460184409.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1727460193,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1727460193429,
+    "read_only": false,
+    "read_only_alternatives": []
+}

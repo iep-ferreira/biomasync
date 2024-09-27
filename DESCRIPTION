@@ -1,0 +1,35 @@
+Package: biomasync
+Type: Package
+Title: A package for connecting, downloading, and prepare Land Use and Land Cover data to the Bioma Stats Program
+Version: 1.0.0
+Author: 
+    person("Iuri", "Emmanuel de Paula Ferreira", email = "iuri@ufscar.br", role = c("aut"), comment = "Maintainer"),
+    person("Victor", "de Camargo Gomes", role = c("aut", "ctb"), comment = "Data aquisition and processing"), 
+    person("Ana Beatriz", "Oliveira Prado", role = c("aut","ctb"), comment = "Data aquisition and processing, communicating systems"), 
+    person("Ronan", "Emmanuel de Paula Ferreira", role = "ctb", comment = "Communicating systems" ), 
+    person("Gustavo", "Bilia Marques", role = c("aut", "ctb"), comment = "Data aquisition and processing, communicating systems"), 
+    person("João Vitor", "Valença Stefanini", role = c("aut", "ctb"), comment = "Communicating systems and Visualization functions")
+Maintainer: Iuri Emmanuel de Paula Ferreira <iuri@ufscar.br>
+Description: ...
+License: Affero GPL 3.0
+Encoding: UTF-8
+LazyData: true
+Reference:... 
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports:
+    grid,
+    ggspatial,
+    dplyr,
+    geosphere,
+    ggplot2,
+    graphics,
+    httr,
+    magrittr,
+    raster,
+    readxl,
+    rvest,
+    sf, 
+    landscapemetrics
+RoxygenNote: 7.2.3

@@ -1,0 +1,8 @@
+"0","#(path_package <- system.file(package = ""biomasync""))
+#path_package <- getwd()
+getwd()
+"
+"1","[1]"
+"1"," ""C:/Users/ferre/OneDrive/Documentos/GitHub/biomasync/R"""
+"1","
+"
