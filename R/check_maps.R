@@ -17,6 +17,8 @@ check_maps <- function(ids, start, end, export_folder_path) {
 
 dir_path <- export_folder_path
 
+maps <- NULL
+
  for (year in start:end) {
 
  for (id in ids) {

@@ -10,7 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
+#remove.packages("biomasync")
 library(devtools)
+library(jsonlite)
 devtools::install_github("iep-ferreira/biomasync")
 ```
 

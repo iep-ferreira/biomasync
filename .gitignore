@@ -6,6 +6,8 @@
 
 # pasta ignorada
 biblioteca-teste/
-.Rproj.user
+*.Rproj.user
 
-.Rhistory
+*.Rhistory
+
+*.Rproj
