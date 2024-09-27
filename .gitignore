@@ -3,3 +3,9 @@
 
 # Ada Library Information
 *.ali
+
+# pasta ignorada
+biblioteca-teste/
+.Rproj.user
+
+.Rhistory
