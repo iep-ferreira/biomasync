@@ -11,3 +11,4 @@ biblioteca-teste/
 *.Rhistory
 
 *.Rproj
+.Rproj.user

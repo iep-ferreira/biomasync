@@ -1,11 +1,11 @@
 {
     "id": "06214A12",
-    "path": "~/GitHub/biomasync/install-and-test.Rmd",
+    "path": "C:/Users/ferre/OneDrive/Documentos/GitHub/biomasync/install-and-test.Rmd",
     "project_path": "install-and-test.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1131420958",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1727462145953.0,
     "source_on_save": false,
     "relative_order": 3,
@@ -13,15 +13,15 @@
         "source_window_id": "",
         "Source": "Source",
         "last_setup_crc32": "3afa3d95bb338d19",
-        "cursorPosition": "35,0",
-        "scrollLine": "27"
+        "cursorPosition": "28,0",
+        "scrollLine": "19"
     },
     "folds": "",
-    "lastKnownWriteTime": 1727467270,
+    "lastKnownWriteTime": 1727468561,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727468069440,
+    "last_content_update": 1727468561716,
     "read_only": false,
     "read_only_alternatives": []
 }
