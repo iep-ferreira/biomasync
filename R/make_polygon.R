@@ -46,7 +46,7 @@ make_polygon <- function(lat = NULL, lon = NULL, size = NULL, shape = c("circle"
   # Set the coordinate reference system (CRS)
   sf_object <- sf::st_set_crs(poly_sf, 4326)
 
-  sys_path <- system.file(package = "biomastats")
+  sys_path <- system.file(package = "biomasync")
 
   download_path <- file.path(sys_path, "shp/polygon.shp")
 

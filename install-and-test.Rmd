@@ -36,3 +36,7 @@ mapview(sf::read_sf(ufscar_shp))
 recortes <- biomastats_sync(shape_path = ufscar_shp, start=1985, end=2020, export_folder_path = "./biblioteca-teste")
 ```
 
+```{r}
+plot(recortes$raster[[1]])
+```
+

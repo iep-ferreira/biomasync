@@ -30,9 +30,24 @@ ufscar_shp <- "./inst/shp/UFSCar.shp"
 library(mapview)
 library(sf)
 mapview(sf::read_sf(ufscar_shp))
+library(biomastats)
 ```
 
 ```{r}
 recortes <- biomastats_sync(shape_path = ufscar_shp, start=1985, end=2020, export_folder_path = "./biblioteca-teste")
 ```
+
+```{r}
+resultados <- get_area(recortes)
+```
+
+```{r}
+land_dist(resultados, year = 1990, type = "barplot")
+```
+
+```{r}
+land_vis(recortes, year = 1990)
+```
+
+
 

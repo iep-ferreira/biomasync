@@ -1,14 +1,33 @@
-# Object file
+# Ignore arquivos de log do R
+.Rhistory
+.RData
+
+# Ignore configurações do projeto RStudio
+.Rproj.user
+
+# Ignore arquivos de build temporários
 *.o
+*.so
+*.dll
 
-# Ada Library Information
-*.ali
+# Ignore arquivos de compilação e pacotes
+*.tar.gz
+*.zip
 
-# pasta ignorada
-biblioteca-teste/
+# Ignore arquivos relacionados ao build e testes temporários
+*.Rbuildignore
 *.Rproj.user
 
-*.Rhistory
+# Ignore pastas e arquivos de bibliotecas locais de testes
+biblioteca-teste/
 
-*.Rproj
-.Rproj.user
+# Ignore arquivos temporários e de sistema
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Outros arquivos que podem não ser relevantes
+to-test-functions
+
+
