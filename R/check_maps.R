@@ -25,33 +25,25 @@ maps <- list()
         
         file_name <- file.path(dir_path, paste0("coverage-frag-", id, "-year-", year, ".tif"))
 
-        if (id == ids[1]) {  
-        # Download the first fragment
-          
-          if(!file.exists(file_name)){
+        if(!file.exists(file_name)){
           message("Downloading the map fragment!")
           cat(file_name, "\n")
           download_maps(num_year = year, fragment_id = id, file_name = file_name)
-
-         } else{
-         message("The map fragment is already downloaded.")
-         cat(file_name, "\n")
+          
+        } else{
+          message("The map fragment is already downloaded.")
+          cat(file_name, "\n")
         } # end-if
-
+        
+        if (id == ids[1]) {  
+        # Download the first fragment
           current_fig <- raster::raster(file_name)
           
         } else {
-         if(!file.exists(file_name)){
-         message("Downloading the map fragment!")
-         cat(file_name, "\n")
-         download_maps(num_year = year, fragment_id = id, file_name = file_name)
-         } else{
-         message("The map fragment is already downloaded.")
-         cat(file_name, "\n")
-        } #end-else
-
+          
           temp_fig <- raster::raster(file_name)
           current_fig <- raster::merge(current_fig, temp_fig)          
+        
         } # end-for ids
 
       } # end-for years

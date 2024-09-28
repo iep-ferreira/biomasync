@@ -3,9 +3,9 @@
     "path": "~/GitHub/biomasync/install-and-test.Rmd",
     "project_path": "install-and-test.Rmd",
     "type": "r_markdown",
-    "hash": "3725887204",
+    "hash": "1131420958",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1727462145953.0,
     "source_on_save": false,
     "relative_order": 3,
@@ -13,15 +13,15 @@
         "source_window_id": "",
         "Source": "Source",
         "last_setup_crc32": "3afa3d95bb338d19",
-        "cursorPosition": "16,0",
-        "scrollLine": "9"
+        "cursorPosition": "36,0",
+        "scrollLine": "32"
     },
     "folds": "",
     "lastKnownWriteTime": 1727468561,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1727505711058,
+    "last_content_update": 1727506314247,
     "read_only": false,
     "read_only_alternatives": []
 }
