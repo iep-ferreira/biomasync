@@ -3,7 +3,7 @@
     "path": "~/GitHub/biomasync/R/compare_shapefiles_sync.R",
     "project_path": "R/compare_shapefiles_sync.R",
     "type": "r_source",
-    "hash": "275417454",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1727460184409.0,
@@ -11,7 +11,9 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "29,0",
+        "scrollLine": "14"
     },
     "folds": "",
     "lastKnownWriteTime": 1727460193,
